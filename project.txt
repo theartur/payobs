@@ -1,0 +1,72 @@
+ID do projeto
+jazzcript-cloud
+
+Número do projeto
+799786397479
+
+API KEY
+AIzaSyAMogRouuyl0v8-Yl-9glQEWQDQc2_8x28
+
+
+ionic push --google-api-key your-google-api-key
+ionic config set gcm_key <your-gcm-project-number>
+
+
+ionic push --google-api-key AIzaSyAMogRouuyl0v8-Yl-9glQEWQDQc2_8x28
+ionic config set gcm_key 799786397479
+
+
+
+http://docs.ionic.io/docs/push-from-scratch
+http://docs.ionic.io/v1.0/docs/push-android-setup
+https://console.developers.google.com/project/jazzcript-cloud/apiui/credential
+
+
+
+https://faucetbox.com/en/ajax/address_checker/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk
+
+curl 'https://faucetbox.com/en/ajax/address_checker/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk' -H 'accept-encoding: gzip, deflate, sdch' -H 'x-requested-with: XMLHttpRequest' -H 'accept-language: pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4' -H 'user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36' -H 'accept: text/plain, */*; q=0.01' -H 'referer: https://faucetbox.com/check/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk' -H 'cookie: __cfduid=d6cc9d8ca6b0bfaba6219791afe2da8e41443568866; FBOXSESSION=pg2knntkhsa5gof79g14r6if35; timezone=America%2FAraguaina; timezone_offset=-10800; timezone_code=BRT; address=1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk; _ga=GA1.2.1412096423.1443568869; _gat=1' --compressed
+
+
+
+
+
+
+
+curl 'https://faucetbox.com/en/ajax/address_checker/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk' -H 'accept-encoding: gzip, deflate, sdch' -H 'x-requested-with: XMLHttpRequest' -H 'user-agent: Faucebox' -H 'accept: text/plain, */*; q=0.01' -H 'referer: https://faucetbox.com/check/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk' --compressed
+
+
+
+
+
+curl 'https://faucetbox.com/en/ajax/address_checker/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk' -H 'referer: https://faucetbox.com/check/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk' --compressed
+
+
+
+
+                                                                                                                                                                                                                    
+codio@school-micro:~/workspace$ curl 'https://faucetbox.com/en/ajax/address_checker/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk' -H 'referer: https://faucetbox.com/check/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk'                                                         
+{"status":"try_later"}
+
+codio@school-micro:~/workspace$ curl 'https://faucetbox.com/en/ajax/address_checker/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk' -H 'referer: https://faucetbox.com/check/1HyRvBxLk81RrS5nFeqF3UUKvvA1yiEHhk' --compressed                      
+
+{"days_left":"9.0","show_days_left":true,"avg_per_day":"0.00001300","balance_history":[[1444780800000,1300]],"referral_history":[],"show_graph":true,"chain_viewer":"https:\/\/btc.blockr.io\/tx\/info\/","transactions":[],"paid":"0.00000000","percentage":
+10,"minimum_threshold":"0.00013000","pending":"0.00001300","currency":"BTC","status":"ok","timestamp":1444839490000}codio@school-micro:~/workspace$                                                                                                          
+
+{
+"days_left":"9.0",
+"show_days_left":true,
+"avg_per_day":"0.00001300",
+"balance_history":[[1444780800000,1300]],
+"referral_history":[],
+"show_graph":true,
+"chain_viewer":"https:\/\/btc.blockr.io\/tx\/info\/",
+"transactions":[],
+"paid":"0.00000000",
+"percentage":10,
+"minimum_threshold":"0.00013000",
+"pending":"0.00001300",
+"currency":"BTC",
+"status":"ok",
+"timestamp":1444839490000
+}
